@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  font-family: "Roboto Mono", monospace;
+}
+.input-container {
+  padding: 3em;
+  border-radius: 30px;
+  border: 3px solid black;
+  box-shadow: 8px 5px 5px grey;
+  font-family: "Roboto Mono", monospace;
+
+}
+
+.input-container:hover {
+  background-color: #dcbaff;
+  box-shadow: 10px 7px 7px grey;
+}
+
+.header {
+  text-align: flex;
+  font-size: 25px;
+  margin: 0;
+  left: -1em;
+  top: -1em;
+}
+
+label {
+  display: block;
+  text-align: center;
+  line-height: 150%;
+  font-size: 25px;
+  font-family: "Roboto Mono", monospace;
+}
+.output-container {
+  align-items: flex;
+  align-content: center;
+ 
+}
+
+nav {
+  margin: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #66f2d5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+}
+
+a {
+  background-color: rgba(0, 0, 0, 0);
+  margin: 10px;
+  font-size: 25px;
+  font-family: 'Roboto Mono', monospace;
+
+}
+a:hover {
+  text-decoration:transparent;
+  opacity: 1;
+
+}
+
+.log-out-btn {
+  background-color: #66f2d5;
+  margin: -5px;
+  text-decoration: underline;
+  font-size: 25px;
+  border: 0px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.log-out-btn:hover {
+  text-decoration:transparent;
+  opacity: 1;
+}
+
+.loginPage {
+  width: 100vw;
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* GOOGLE BUTTOn */
+.login-with-google-btn {
+  font-size: 30px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 50px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: 'Roboto Mono', monospace;
+
+}
+.login-with-google-btn:hover::after {
+  top: 0px;
+  left: 0px;
+}
+.login-with-google-btn::after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.homePage {
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+/* Anon button */
+.login-with-anon-btn {
+  font-size: 30px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 50px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: 'Roboto Mono', monospace;
+
+}
+.login-with-anon-btn:hover::after {
+  top: 0px;
+  left: 0px;
+}
+.login-with-anon-btn::after {
+  content: "";
+  background-color: #dcbaff;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
